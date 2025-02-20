@@ -1,0 +1,252 @@
+{
+  "about": {
+    "browser": "chrome",
+    "version": "20.4.2"
+  },
+  "showall": true,
+  "lang": "en",
+  "dark": "system",
+  "favicon": "",
+  "tabtitle": "Homepage",
+  "greeting": "Surajit",
+  "pagegap": 3.5,
+  "pagewidth": 1200,
+  "time": true,
+  "main": true,
+  "dateformat": "eu",
+  "background_blur": 3,
+  "background_bright": 0.8,
+  "background_type": "unsplash",
+  "quicklinks": true,
+  "textShadow": 0.2,
+  "announcements": "off",
+  "review": 1,
+  "css": "",
+  "hide": {
+    "date": false,
+    "settingsicon": true,
+    "weatherdesc": false,
+    "weathericon": true,
+    "clock": false
+  },
+  "linkstyle": "large",
+  "linktitles": true,
+  "linkbackgrounds": true,
+  "linknewtab": false,
+  "linksrow": "6",
+  "linksojddjb": {
+    "_id": "linksojddjb",
+    "order": 3,
+    "parent": "default",
+    "title": "Testbook",
+    "url": "https://testbook.com"
+  },
+  "linkskkqkhl": {
+    "_id": "linkskkqkhl",
+    "order": 2,
+    "parent": "default",
+    "title": "Music",
+    "url": "https://music.youtube.com",
+    "icon": "https://services.bonjourr.fr/favicon/blob/https://music.youtube.com"
+  },
+  "linkskcfpql": {
+    "_id": "linkskcfpql",
+    "order": 4,
+    "parent": "default",
+    "title": "Ai",
+    "url": "https://gemini.google.com/app"
+  },
+  "linksegqcrd": {
+    "_id": "linksegqcrd",
+    "order": 0,
+    "parent": "default",
+    "title": "Youtube",
+    "url": "https://youtube.com",
+    "icon": "1740040242030"
+  },
+  "linksdkdrnl": {
+    "_id": "linksdkdrnl",
+    "order": 1,
+    "parent": "default",
+    "title": "Photos",
+    "url": "https://photos.google.com"
+  },
+  "linksaqhpjb": {
+    "_id": "linksaqhpjb",
+    "order": 5,
+    "parent": "default",
+    "title": "Readwise",
+    "url": "https://read.readwise.io"
+  },
+  "linkgroups": {
+    "groups": [
+      "default"
+    ],
+    "on": false,
+    "pinned": [],
+    "selected": "default",
+    "synced": []
+  },
+  "clock": {
+    "face": "none",
+    "ampm": false,
+    "ampmlabel": false,
+    "analog": false,
+    "seconds": false,
+    "size": 1,
+    "style": "round",
+    "timezone": "auto",
+    "worldclocks": false
+  },
+  "analogstyle": {
+    "background": "#fff2",
+    "border": "#ffff",
+    "face": "none",
+    "hands": "modern",
+    "shape": "round"
+  },
+  "worldclocks": [],
+  "unsplash": {
+    "collection": "",
+    "every": "tabs",
+    "lastCollec": "day",
+    "time": 1740042935712
+  },
+  "weather": {
+    "ccode": "IN",
+    "city": "Siliguri",
+    "forecast": "never",
+    "geolocation": "off",
+    "moreinfo": "none",
+    "provider": "",
+    "temperature": "actual",
+    "unit": "metric"
+  },
+  "notes": {
+    "on": false,
+    "text": "## To-Do!\n\n[ ] Full Mock\n[ ] Sectional Mock\n[ ] 120 Grammar Rules  : https://www.youtube.com/watch?v=OBGS4We9Ybw\n\n\n\n",
+    "align": "left",
+    "opacity": 0.5,
+    "width": 41
+  },
+  "searchbar": {
+    "on": true,
+    "opacity": 0.55,
+    "width": 46,
+    "engine": "brave",
+    "newtab": false,
+    "placeholder": "Brave Search",
+    "request": "",
+    "suggestions": false
+  },
+  "quotes": {
+    "on": true,
+    "author": false,
+    "frequency": "tabs",
+    "last": 1740042935710,
+    "type": "classic"
+  },
+  "font": {
+    "size": "12.45",
+    "family": "Space Mono",
+    "system": false,
+    "weight": "700",
+    "weightlist": []
+  },
+  "supporters": {
+    "closed": false,
+    "enabled": false,
+    "month": 2
+  },
+  "move": {
+    "layouts": {
+      "double": {
+        "grid": [
+          [
+            "main",
+            "time"
+          ],
+          [
+            "searchbar",
+            "searchbar"
+          ],
+          [
+            "quicklinks",
+            "quicklinks"
+          ],
+          [
+            "quotes",
+            "quotes"
+          ]
+        ],
+        "items": {
+          "quicklinks": {
+            "box": "",
+            "text": ""
+          },
+          "searchbar": {
+            "box": "",
+            "text": ""
+          },
+          "quotes": {
+            "box": "end center",
+            "text": ""
+          }
+        }
+      },
+      "single": {
+        "grid": [
+          [
+            "time"
+          ],
+          [
+            "main"
+          ],
+          [
+            "searchbar"
+          ],
+          [
+            "notes"
+          ],
+          [
+            "quicklinks"
+          ],
+          [
+            "quotes"
+          ]
+        ],
+        "items": {
+          "time": {
+            "box": "",
+            "text": ""
+          },
+          "main": {
+            "box": "",
+            "text": ""
+          }
+        }
+      },
+      "triple": {
+        "grid": [
+          [
+            ".",
+            "time",
+            "."
+          ],
+          [
+            ".",
+            "main",
+            "."
+          ],
+          [
+            ".",
+            "quicklinks",
+            "."
+          ]
+        ],
+        "items": {}
+      }
+    },
+    "selection": "double"
+  }
+}
