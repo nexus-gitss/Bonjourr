@@ -33,7 +33,7 @@
   "linktitles": true,
   "linkbackgrounds": true,
   "linknewtab": false,
-  "linksrow": "6",
+  "linksrow": "7",
   "linksojddjb": {
     "_id": "linksojddjb",
     "order": 3,
@@ -109,8 +109,8 @@
   "unsplash": {
     "collection": "",
     "every": "tabs",
-    "lastCollec": "day",
-    "time": 1740042935712
+    "lastCollec": "night",
+    "time": 1742744516949
   },
   "weather": {
     "ccode": "IN",
@@ -132,7 +132,7 @@
   "searchbar": {
     "on": true,
     "opacity": 0.55,
-    "width": 46,
+    "width": 48,
     "engine": "brave",
     "newtab": false,
     "placeholder": "Brave Search",
@@ -143,7 +143,7 @@
     "on": true,
     "author": false,
     "frequency": "tabs",
-    "last": 1740042935710,
+    "last": 1742744516944,
     "type": "classic"
   },
   "font": {
