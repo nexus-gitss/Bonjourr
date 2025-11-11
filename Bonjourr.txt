@@ -1,7 +1,7 @@
 {
   "about": {
     "browser": "chrome",
-    "version": "20.4.2"
+    "version": "21.2.1"
   },
   "showall": true,
   "lang": "en",
@@ -9,156 +9,123 @@
   "favicon": "",
   "tabtitle": "Homepage",
   "greeting": "Surajit",
+  "greetingsize": "3",
   "pagegap": 3.5,
   "pagewidth": 1200,
   "time": true,
   "main": true,
-  "dateformat": "eu",
-  "background_blur": 3,
-  "background_bright": 0.8,
-  "background_type": "unsplash",
+  "dateformat": "auto",
   "quicklinks": true,
   "textShadow": 0.2,
   "announcements": "off",
   "review": 1,
   "css": "",
   "hide": {
+    "clock": false,
     "date": false,
     "settingsicon": true,
     "weatherdesc": false,
-    "weathericon": true,
-    "clock": false
+    "weathericon": true
+  },
+  "clock": {
+    "size": 1,
+    "ampm": false,
+    "analog": false,
+    "seconds": false,
+    "ampmlabel": false,
+    "worldclocks": false,
+    "timezone": "auto",
+    "face": "none",
+    "style": "round"
   },
   "linkstyle": "large",
   "linktitles": true,
   "linkbackgrounds": true,
   "linknewtab": false,
   "linksrow": "7",
-  "linksojddjb": {
-    "_id": "linksojddjb",
-    "order": 3,
-    "parent": "default",
-    "title": "Testbook",
-    "url": "https://testbook.com"
-  },
-  "linkskkqkhl": {
-    "_id": "linkskkqkhl",
-    "order": 2,
-    "parent": "default",
-    "title": "Music",
-    "url": "https://music.youtube.com",
-    "icon": "https://services.bonjourr.fr/favicon/blob/https://music.youtube.com"
-  },
-  "linkskcfpql": {
-    "_id": "linkskcfpql",
-    "order": 4,
-    "parent": "default",
-    "title": "Ai",
-    "url": "https://gemini.google.com/app"
-  },
-  "linksegqcrd": {
-    "_id": "linksegqcrd",
-    "order": 0,
-    "parent": "default",
-    "title": "Youtube",
-    "url": "https://youtube.com",
-    "icon": "1740040242030"
-  },
-  "linksdkdrnl": {
-    "_id": "linksdkdrnl",
-    "order": 1,
-    "parent": "default",
-    "title": "Photos",
-    "url": "https://photos.google.com"
-  },
-  "linksaqhpjb": {
-    "_id": "linksaqhpjb",
-    "order": 5,
-    "parent": "default",
-    "title": "Readwise",
-    "url": "https://read.readwise.io"
-  },
   "linkgroups": {
+    "on": false,
+    "selected": "default",
     "groups": [
       "default"
     ],
-    "on": false,
     "pinned": [],
-    "selected": "default",
     "synced": []
   },
-  "clock": {
-    "face": "none",
-    "ampm": false,
-    "ampmlabel": false,
-    "analog": false,
-    "seconds": false,
-    "size": 1,
-    "style": "round",
-    "timezone": "auto",
-    "worldclocks": false
-  },
-  "analogstyle": {
-    "background": "#fff2",
-    "border": "#ffff",
-    "face": "none",
-    "hands": "modern",
-    "shape": "round"
+  "backgrounds": {
+    "type": "images",
+    "fadein": 600,
+    "blur": 3,
+    "bright": 0.8,
+    "frequency": "tabs",
+    "color": "#185A63",
+    "urls": "",
+    "images": "bonjourr-images-daylight",
+    "videos": "bonjourr-videos-daylight",
+    "queries": {
+      "unsplash-images-collections": "2406842"
+    },
+    "texture": {
+      "type": "topographic",
+      "opacity": 0.1
+    }
   },
   "worldclocks": [],
-  "unsplash": {
-    "collection": "",
-    "every": "tabs",
-    "lastCollec": "night",
-    "time": 1742744516949
+  "analogstyle": {
+    "face": "none",
+    "hands": "modern",
+    "shape": "round",
+    "border": "#ffff",
+    "background": "#fff2"
   },
   "weather": {
-    "ccode": "IN",
-    "city": "Siliguri",
-    "forecast": "never",
-    "geolocation": "off",
-    "moreinfo": "none",
+    "city": "siliguri",
+    "unit": "metric",
     "provider": "",
+    "moreinfo": "none",
+    "forecast": "never",
     "temperature": "actual",
-    "unit": "metric"
+    "geolocation": "off",
+    "ccode": "IN"
   },
   "notes": {
     "on": false,
-    "text": "## To-Do!\n\n[ ] Full Mock\n[ ] Sectional Mock\n[ ] 120 Grammar Rules  : https://www.youtube.com/watch?v=OBGS4We9Ybw\n\n\n\n",
-    "align": "left",
     "opacity": 0.5,
-    "width": 41
+    "width": 41,
+    "align": "left",
+    "text": "## To-Do!\n\n[ ] Full Mock\n[ ] Sectional Mock\n[ ] 120 Grammar Rules  : https://www.youtube.com/watch?v=OBGS4We9Ybw\n\n\n\n"
   },
   "searchbar": {
     "on": true,
     "opacity": 0.55,
     "width": 48,
-    "engine": "brave",
     "newtab": false,
-    "placeholder": "Brave Search",
+    "suggestions": false,
+    "engine": "brave",
     "request": "",
-    "suggestions": false
+    "placeholder": "Search"
   },
   "quotes": {
     "on": true,
-    "author": false,
+    "type": "classic",
     "frequency": "tabs",
-    "last": 1742744516944,
-    "type": "classic"
+    "author": false,
+    "last": 1762855612655
   },
   "font": {
     "size": "12.45",
     "family": "Space Mono",
     "system": false,
-    "weight": "700",
-    "weightlist": []
+    "weightlist": [],
+    "weight": "700"
   },
   "supporters": {
-    "closed": false,
     "enabled": false,
+    "closed": false,
     "month": 2
   },
   "move": {
+    "selection": "double",
     "layouts": {
       "double": {
         "grid": [
@@ -181,16 +148,16 @@
         ],
         "items": {
           "quicklinks": {
-            "box": "",
-            "text": ""
+            "text": "",
+            "box": ""
           },
           "searchbar": {
-            "box": "",
-            "text": ""
+            "text": "",
+            "box": ""
           },
           "quotes": {
-            "box": "end center",
-            "text": ""
+            "text": "",
+            "box": "end center"
           }
         }
       },
@@ -217,12 +184,12 @@
         ],
         "items": {
           "time": {
-            "box": "",
-            "text": ""
+            "text": "",
+            "box": ""
           },
           "main": {
-            "box": "",
-            "text": ""
+            "text": "",
+            "box": ""
           }
         }
       },
@@ -246,7 +213,51 @@
         ],
         "items": {}
       }
-    },
-    "selection": "double"
+    }
+  },
+  "linksdkdrnl": {
+    "_id": "linksdkdrnl",
+    "order": 1,
+    "parent": "default",
+    "title": "Photos",
+    "url": "https://photos.google.com"
+  },
+  "linksegqcrd": {
+    "_id": "linksegqcrd",
+    "order": 0,
+    "parent": "default",
+    "title": "Youtube",
+    "url": "https://youtube.com",
+    "icon": "1752850585190"
+  },
+  "linkskkqkhl": {
+    "_id": "linkskkqkhl",
+    "order": 2,
+    "parent": "default",
+    "title": "Music",
+    "url": "https://music.youtube.com",
+    "icon": "1752850580247"
+  },
+  "linksledlok": {
+    "_id": "linksledlok",
+    "order": 5,
+    "parent": "default",
+    "title": "ChatGPT",
+    "url": "https://chatgpt.com/"
+  },
+  "linkslibkim": {
+    "_id": "linkslibkim",
+    "order": 4,
+    "parent": "default",
+    "title": "Ai",
+    "url": "https://gemini.google.com/app",
+    "icon": "1752850605663"
+  },
+  "linksojddjb": {
+    "_id": "linksojddjb",
+    "order": 3,
+    "parent": "default",
+    "title": "Testbook",
+    "url": "https://testbook.com"
   }
 }
